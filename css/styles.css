@@ -1,0 +1,125 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* =============== COMPONENTS =============== */
+.modal-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/* =============== END COMPONENTS =============== */
+
+/* =============== HEADER =============== */
+.navigation-list-link,
+.header-mail-link,
+.header-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-link {
+  color: #212121;
+}
+
+.header-mail-link,
+.header-tel-link {
+  color: #757575;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
+  color: #2196f3;
+}
+/* =============== END HEADER =============== */
+
+/* =============== HERO =============== */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* =============== END HERO =============== */
+
+/* =============== ОСОБЕННОСТИ =============== */
+.features-list-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.941;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.features-list-interpretation {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* =============== END ОСОБЕННОСТИ =============== */
+
+/* ================ НАША КОМАНДА ================ */
+.team-list-name,
+.team-list-position {
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+}
+
+.team-list-name {
+  font-weight: 500;
+  color: #212121;
+}
+
+.team-list-position {
+  font-weight: 400;
+  color: #757575;
+}
+/* ================ END НАША КОМАНДА ================ */
+
+/* ===================== FOOTER ===================== */
+.contact-list-address,
+.contact-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
