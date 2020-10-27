@@ -1,5 +1,14 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --direction-color: #ffffff;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   font-style: normal;
 }
 
@@ -17,13 +26,13 @@ body {
 
 /* =============== COMPONENTS =============== */
 .modal-btn {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--direction-color);
 }
 
 .title {
@@ -32,7 +41,7 @@ body {
   line-height: 1.167;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-color);
 }
 /* =============== END COMPONENTS =============== */
 
@@ -47,12 +56,12 @@ body {
 }
 
 .navigation-list-link {
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .header-mail-link,
 .header-tel-link {
-  color: #757575;
+  color: var(--second-text-color);
 }
 
 .navigation-list-link:hover,
@@ -61,7 +70,7 @@ body {
 .header-mail-link:focus,
 .header-tel-link:hover,
 .header-tel-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* =============== END HEADER =============== */
 
@@ -83,7 +92,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .features-list-interpretation {
@@ -92,7 +101,7 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--second-text-color);
 }
 /* =============== END ОСОБЕННОСТИ =============== */
 
@@ -106,12 +115,12 @@ body {
 
 .team-list-name {
   font-weight: 500;
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .team-list-position {
   font-weight: 400;
-  color: #757575;
+  color: var(--second-text-color);
 }
 /* ================ END НАША КОМАНДА ================ */
 
