@@ -178,3 +178,42 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 */
+
+/* ===================== PORTFOLIO ===================== */
+/* ================== PORTFOLIO BUTTONS ================== */
+.filter-btn {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.filter-btn:active,
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--direction-color);
+  background-color: var(--accent-color);
+}
+/* ================== END PORTFOLIO BUTTONS ================== */
+
+/* ================== PORTFOLIO CARDS ================== */
+.portfolio-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--main-text-color);
+}
+
+.portfolio-filter {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
+}
