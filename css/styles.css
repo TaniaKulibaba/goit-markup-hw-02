@@ -73,6 +73,10 @@ body {
   color: var(--main-text-color);
 }
 
+.link-current {
+  color: var(--accent-color);
+}
+
 .header-mail-link,
 .header-tel-link {
   color: var(--second-text-color);
