@@ -2,6 +2,7 @@
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --main-text-color: #212121;
+  --light-text-color: #ffffff;
   --second-text-color: #757575;
   --accent-color: #2196f3;
   --direction-color: #ffffff;
@@ -29,16 +30,6 @@ body {
   color: var(--accent-color);
 }
 
-.logo {
-  font-family: var(-secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-
-  color: var(--main-text-color);
-}
-
 .modal-btn {
   font-family: var(--main-font);
   font-style: normal;
@@ -60,6 +51,16 @@ body {
 /* =============== END COMPONENTS =============== */
 
 /* =============== HEADER =============== */
+.logo-dark {
+  font-family: var(-secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
 .navigation-list-link,
 .header-mail-link,
 .header-tel-link {
@@ -100,6 +101,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+/* После добавления темного фона добавить .hero-title белый цвет color: #FFFFFF; */
+
 /* =============== END HERO =============== */
 
 /* =============== ОСОБЕННОСТИ =============== */
@@ -143,10 +146,35 @@ body {
 /* ================ END НАША КОМАНДА ================ */
 
 /* ===================== FOOTER ===================== */
+.logo-light {
+  font-family: var(-secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.logo-light,
+.contact-list-address {
+  color: var(--main-text-color);
+}
+
 .contact-list-address,
 .contact-list-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
+
+/* После добавления темного фона изменить цвет Логотипа и Адреса на белый, а для почты и телефона изменить цвет на формат rgba для прозрачности 
+.logo-light,
+.contact-list-address {
+  color: var(--light-text-color);
+}
+
+.contact-list-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+*/
